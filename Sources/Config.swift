@@ -74,15 +74,6 @@ func localizedString(_ key: String) -> String {
  `AVCaptureMetadataOutput` metadata object types.
  */
 public var metadata = [
-  AVMetadataObjectTypeUPCECode,
-  AVMetadataObjectTypeCode39Code,
-  AVMetadataObjectTypeCode39Mod43Code,
   AVMetadataObjectTypeEAN13Code,
-  AVMetadataObjectTypeEAN8Code,
-  AVMetadataObjectTypeCode93Code,
-  AVMetadataObjectTypeCode128Code,
-  AVMetadataObjectTypePDF417Code,
-  AVMetadataObjectTypeQRCode,
-  AVMetadataObjectTypeAztecCode,
-  AVMetadataObjectTypeITF14Code
+  AVMetadataObjectTypeEAN8Code
 ]
